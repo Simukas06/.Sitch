@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parabéns, você ganhou um iPhone</title>
+    <style>
+        #intro {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+            background-color: black; /* Cor de fundo preta */
+            color: white;            /* Texto branco */
+            border: none;            /* Remove a borda padrão */
+            padding: 10px 20px;      /* Espaçamento interno */
+            font-size: 16px;         /* Tamanho da fonte */
+            cursor: pointer;         /* Cursor de mãozinha ao passar o mouse */
+            border-radius: 5px;      /* Borda arredondada */
+        }
+
+        button:hover {
+            background-color: #333; /* Cor de fundo preta escurecida ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div id="intro">
+        <h1>Receba aqui seu iPhone</h1>
+        <button onclick="showVirusAlert()">Receba aqui!</button>
+    </div>
+
+    <script>
+ function showVirusAlert() {
+            for (let i = 0; i < 3; i++) {
+                alert('Atenção:Vírus Detectado!! Cuidado');
+            }
+        }
+    </script>
+</body>
+</html>
